@@ -21,6 +21,10 @@ h1 {
 .col-one, .col-two {
     width: 30vw;
 }
+
+.col-one h4 {
+    color: #5E7A7D;
+}
 .col-two {
     background-color: #00474B;
     border-radius: 25px;
