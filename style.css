@@ -1,0 +1,39 @@
+html, body {
+    background-color: #C5E4E7;
+}
+
+h1 {
+    text-align: center;
+    color: #3D6666;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 65vw;
+    margin: auto;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.col-one, .col-two {
+    width: 30vw;
+}
+.col-two {
+    background-color: #00474B;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.col-two h3 {
+    color: #26C2AE;
+}
+.col-two h4{
+    color: #FFF;
+}
+
+.col-two p {
+    color: #7F9D9F;
+}
