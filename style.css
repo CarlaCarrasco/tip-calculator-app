@@ -26,6 +26,9 @@ h1 {
     color: #5E7A7D;
 }
 .col-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #00474B;
     border-radius: 25px;
     padding: 30px;
@@ -33,11 +36,32 @@ h1 {
 
 .col-two h3 {
     color: #26C2AE;
+    font-size: 35px;
 }
 .col-two h4{
     color: #FFF;
+    margin: 0 0 5px 0;
 }
 
 .col-two p {
     color: #7F9D9F;
+    margin: 0;
+}
+
+.col-two-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reset-btn {
+    background-color: #26C2AE;
+    font-size: 16px;
+    color: #00474B;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    width: 30vw;
+    text-transform: uppercase;
+    font-weight: 600;
+
 }
