@@ -25,6 +25,22 @@ h1 {
 .col-one h4 {
     color: #5E7A7D;
 }
+
+.flex-percent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-percent > div {
+    flex: 1 0 33%;
+    max-width: 60px;
+    padding: 10px;
+    background: #00474B;
+    margin: 5px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px;     
+}
 .col-two {
     display: flex;
     flex-direction: column;
@@ -37,6 +53,7 @@ h1 {
 .col-two h3 {
     color: #26C2AE;
     font-size: 35px;
+    margin-top: 0;
 }
 .col-two h4{
     color: #FFF;
