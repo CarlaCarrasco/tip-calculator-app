@@ -44,6 +44,16 @@ h1 {
     border-radius: 5px;
     font-size: 24px;     
 }
+
+.flex-percent > div:nth-last-of-type(4){
+    background-color: #26C2AE;
+    color: #00474B;
+}
+
+.flex-percent > div:nth-last-of-type(1){
+    background-color: #F3F9FA;
+    color: #547878;
+}
 .col-two {
     display: flex;
     flex-direction: column;
