@@ -95,7 +95,7 @@ h1 {
     text-transform: uppercase;
     font-weight: 600;
 
-}
+
 
 input{
     width: 25vw;
@@ -104,4 +104,4 @@ input{
     border-radius: 5px;
     height: 40px; 
     font-size: 24px;
-}
+  }
