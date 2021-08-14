@@ -1,5 +1,6 @@
 html, body {
     background-color: #C5E4E7;
+    font-family: 'Space Mono', sans-serif;
 }
 
 h1 {
@@ -102,5 +103,5 @@ input{
     border: none;
     border-radius: 5px;
     height: 40px; 
-    font-size: 20px;
+    font-size: 24px;
 }
