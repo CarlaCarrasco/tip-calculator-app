@@ -95,3 +95,12 @@ h1 {
     font-weight: 600;
 
 }
+
+input{
+    width: 25vw;
+    background: #F3F9FA;
+    border: none;
+    border-radius: 5px;
+    height: 40px; 
+    font-size: 20px;
+}
