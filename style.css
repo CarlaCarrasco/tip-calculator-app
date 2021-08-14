@@ -1,5 +1,6 @@
 html, body {
     background-color: #C5E4E7;
+    font-family: 'Space Mono', sans-serif;
 }
 
 h1 {
@@ -94,4 +95,13 @@ h1 {
     text-transform: uppercase;
     font-weight: 600;
 
-}
+
+
+input{
+    width: 25vw;
+    background: #F3F9FA;
+    border: none;
+    border-radius: 5px;
+    height: 40px; 
+    font-size: 24px;
+  }

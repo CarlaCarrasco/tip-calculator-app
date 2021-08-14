@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
 
@@ -27,38 +29,40 @@
       <input />
       <h4>Select Tip %</h4>
       <div class="flex-percent">
-        <div>10%</div>
-        <div>15%</div>
-        <div>20%</div>
-        <div>25%</div>
-        <div>30%</div>
-        <div>Custom</div>
+        <div>
+          <span>10%</span>
+        </div>
+        <div><span>15%</span></div>
+        <div><span>20%</span></div>
+        <div><span>25%</span></div>
+        <div><span>30%</span></div>
+        <div><span>Custom</span></div>
       </div>
       <h4>Number of People</h4>
       <input />
     </div>
     <div class="col-two">
-      <div>
+      <div class="col-two-flex">
         <div>
           <h4>Tip Amount</h4>
           <p>/ person</p>
         </div>
         <h3>0.00</h3>
       </div>
-      <div>
+      <div class="col-two-flex">
         <div>
           <h4>Total</h4>
           <p>/ person</p>
         </div>
         <h3>0.00</h3>
       </div>
-      <button>Reset</button>
+      <button class="reset-btn">RESET</button>
     </div>
   </div>
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Carla Carrasco</a>.
-  </div>
+  </div> -->
 </body>
 
 </html>
